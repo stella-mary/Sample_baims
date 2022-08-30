@@ -1,0 +1,256 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.Container{
+    background-color: #f9d0cc;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.Header{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.Header1{
+    display: flex;
+    flex-direction: row;
+    width: -50%;
+    justify-content: space-between;
+}
+
+.Header1{
+    font-size: 10px;
+}
+
+.Header2{
+    font-size: 10px;
+}
+
+.Header2:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 35px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.Header3{
+    text-align: left;
+    font-size: 15px;
+}
+
+.image{
+    margin-right: -100%;
+    margin-top: -40%;
+    text-align: right;
+    
+}
+
+.Footer{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.Footer1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Footer2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchArrow{
+    background-color: #f9d0cc;
+    border: none;
+}
+
+input::placeholder {
+    color: #846768;
+}
+
+.searchIcon{
+    background-color: #f9d0cc;
+    border-radius: 5px;
+    border: none;
+}
+
+.searchIcon1{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.searchIcon{
+    background-color: #f9d0cc;
+    border-radius: 5px;
+
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: white;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureTitle {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.featureDesc {
+    font-weight: bold;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+}
+
+.para {
+    text-align: left;
+    font-size: 15px;
+    
+}
+
+.subHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.MainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #f9d0cc;
+}
+
+.profile-text-container{
+    margin: 0 15px;
+    margin-left: 3%;
+    color: #3e1c1d;
+}
+
+.profile-text-container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-left: 3%;
+    background-color: #f9d0cc;
+    color: #3e1c1d;
+    width: 300px;
+    border: 03px solid #846768;
+    padding: 08px;
+    border-radius: 30px;
+
+}
+
+input{
+    background-color: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 300px;
+}
+
+.icon-search{
+    color: #846768;
+}
+
+.icon-searchx{
+    color: black;
+    padding-left: 50px;
+}
+
+.profile-text-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 5%;
+    background-color: #f9d0cc;
+    color: #3e1c1d;
+}
+
+.profile-text1{
+    margin: 0 15px;
+    font-size: 15px;
+    color: #846768;
+    text-align: center;
+}
+
+.profile-text{
+    color: #846768;
+    text-align: center;
+}
+
+.profile-text1:hover{
+    background-color: #2f2736;
+    padding: 5px;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.arrow{
+    color: #846768;
+}
+
+.profile-text-container3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 8%;
+    margin-left: 2%;
+    background-color: white;
+    color: black;
+    width: 300px;
+    border: 03px solid black;
+    padding: 08px;
+    border-radius: 30px;
+
+}
